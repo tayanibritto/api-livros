@@ -1,0 +1,52 @@
+# Ambientes virtuais
+.venv/
+venv/
+env/
+
+# Cache Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Cache do Poetry
+.poetry/
+
+# Arquivos de distribuição
+build/
+dist/
+*.egg-info/
+
+# Arquivos de log
+*.log
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Configurações de IDE
+.vscode/
+.idea/
+
+# Cache de testes
+.pytest_cache/
+
+# Cache do Ruff
+.ruff_cache/
+
+# Cache do MyPy
+.mypy_cache/
+
+# Cache do Pyre
+.pyre/
+
+# Coverage
+.coverage
+htmlcov/
+
+# Arquivos temporários
+*.tmp
+*.temp
+
+# Variáveis de ambiente
+.env
+.env.*
